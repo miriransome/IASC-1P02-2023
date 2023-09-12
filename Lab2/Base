@@ -11,7 +11,9 @@
 	<body>
 
 		<div>
-			<p>On Wednesdays we wear pink</p>
+			<p>On <strong>Wednesdays</strong> we wear pink</p>
+			<br>
+			<p>Otherwise, <em>you can't sit with us</em>.
 		</div>
 
 	</body>
