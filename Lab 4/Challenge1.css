@@ -1,0 +1,28 @@
+body{
+  background-color: blue;
+}
+
+.solidborder{
+  border: black 4px solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.comics{
+  color: red;
+  border: green 2px dashed;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: arial;
+  font-size: 10px;
+}
+
+#pizza{
+  border: yellow 2px dashed;
+  padding: 10px;
+  width: 130px;
+  height: 200px;
+}

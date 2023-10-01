@@ -1,0 +1,62 @@
+p /* applies to all paragraphs */
+{
+  font-size: 48px;
+}
+
+
+p.secondRule /*all paras with firstRule*/
+{
+  background-color: #DCD0FF;
+  font-style: italic;
+}
+
+div.firstRule p
+{
+  /*applies to every p with a parent div*/
+  color: red;
+}
+
+div.firstRule > p
+{
+  /*p with a direct parent div.firstRule*/
+  font-size: 72px;
+}
+
+
+/*any p with an older sibling img
+img ~ p
+{
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+*/
+
+img + p /*The NEXT sibling*/
+{
+  font-size: 24px;
+  text-align: center;
+  color: green;
+}
+
+div.imgWrapper
+{
+  background-color: #FFFFB5;
+}
+
+div.imgWrapper img /*any img with an imgWrapper class*/
+{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+
+
+border: 10px black solid;
+border-radius: 8px;
+
+padding: 10px 50px 20px 80px;
+
+background-color: red;
+}

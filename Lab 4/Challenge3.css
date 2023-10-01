@@ -1,0 +1,21 @@
+#color{
+  background-color: green;
+  }
+
+  #rule1{
+  border: black 4px dotted;
+  text-indent: 5px;
+  margin: 0px 15px;
+}
+
+#rule2{
+  color: red;
+}
+
+#rule3{
+  color: darkgreen;
+}
+
+#rule4{
+  color: darkred;
+}
