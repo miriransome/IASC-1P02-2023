@@ -1,0 +1,52 @@
+body{
+  background-color: grey;
+}
+
+p{
+  font-size: 13px;
+}
+
+.relativeimage{
+  position: relative; /*default position is already relative. we're just writing it to show what relative means*/
+}
+
+.absoluteimg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  width: auto;
+  height: 500px;
+
+  z-index: -99;
+}
+
+.wrapper{
+  width: 1080px;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+}
+
+#top{
+  height: 100px;
+  background-color: pink;
+}
+
+#left{
+  background-color: lightblue;
+  width: 1200px
+  float:left;
+}
+
+#right{
+  width: 600px;
+  background-color: yellow;
+  float: right;
+  height: 600px;
+}
+
+#bottom{
+  background-color: orange;
+  clear: both;
+}
