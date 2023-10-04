@@ -1,0 +1,22 @@
+#wrapper{
+  height: 750px;
+  color: white;
+}
+
+#header{
+  background-color: red;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#leftside{
+  background-color: green;
+  height: 500px;
+  padding: 10px 0;
+}
+
+#footer{
+  background-color: blue;
+  height: 50px;
+  padding:10px 0;
+}
