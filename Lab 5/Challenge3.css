@@ -1,0 +1,30 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+
+#con1{
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+#con2{
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+#con3{
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  clear: both;
+  margin: auto;
+}
