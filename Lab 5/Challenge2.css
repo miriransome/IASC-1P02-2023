@@ -1,0 +1,41 @@
+body{
+  background-color: green
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+
+#header{
+  background-color: red;
+  text-align: center;
+  height: 70px;
+}
+
+#firstnav{
+  background-color: pink;
+  height: 30px;
+  width: 300px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+#firstnav2{
+  background-color: orange;
+  height: 30px;
+  width: 600px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+#content{
+  background-color: blue;
+  height: 600px;
+  clear: both;
+}
+
+#footer{
+  background-color: yellow;
+  height: 50px;
+}
