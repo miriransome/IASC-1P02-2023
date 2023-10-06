@@ -7,16 +7,21 @@
   background-color: red;
   text-align: center;
   padding: 10px 0;
+  margin: 0 -10px;
 }
 
 #leftside{
   background-color: green;
   height: 500px;
   padding: 10px 0;
+  margin: 0 -10px;
+
 }
 
 #footer{
   background-color: blue;
   height: 50px;
   padding:10px 0;
+  margin: 0 -10px;
+
 }
