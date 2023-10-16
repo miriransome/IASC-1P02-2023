@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(248, 242, 235);
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  color: #C79D69;
+}
+
+#about, #artwork, #inspo, .headings{
+  color: #D7A3A4;
+}
+
+p, ol{
+  font-family: 'verdana';
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav{
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 15px;
+  color: #C79D69;
+  position: relative;
+}
+
+.nav a:hover{
+  background-color: #F8CDCC;
+}
+
+a:hover{
+  background-color: #F3DEDF;
+}
+
+.pics{
+  width: 300px;
+  height: 300px;
+}
+
+#fix{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#main{
+  position: absolute;
+  top: 10px;
+}
+
+.wrapper{
+  width: 1212px;
+  border: 2px solid pink;
+  margin: 0px;
+  padding: 10px;
+}
+
+.artists{
+  font-family: verdana;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inspopics{
+  width: 300px;
+  height: 350px;
+}
