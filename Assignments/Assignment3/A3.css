@@ -150,11 +150,11 @@ a:visited{
   color: teal;
 }
 
-#Link1, #Link2, #Link3 #Contact, #Accessibility:hover{
+#Link1, #Link2, #Link3, #Contact, #Accessibility:hover{
   color: darkslategray;
 }
 
-#Link1, #Link2, #Link3 #Contact, #Accessibility:visited{
+#Link1, #Link2, #Link3, #Contact, #Accessibility:visited{
   color: teal;
 }
 
