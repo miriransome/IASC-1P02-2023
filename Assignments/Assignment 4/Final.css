@@ -1,0 +1,436 @@
+/* Main page */
+#pg1{
+  background-color: #edede9;
+  font-family: 'Open Sans';
+}
+
+h1{
+  font-family: 'Alata';
+  text-align: center;
+  font-size: 190px;
+  height: 100%;
+}
+
+/* Side Navigation*/
+.sidenav1 i{
+  color: #5E503F;
+  font-size: 24px;
+}
+
+.sidenav1 li{
+  list-style: none;
+}
+
+.sidenav1{
+  position: fixed;
+  top: 40%;
+  right: 2%;
+}
+
+
+.sidenav1 i:hover{
+  color: #C6AC8F;
+}
+
+
+/* Navigation */
+.navbar{
+}
+
+.navbar ul{
+  width: 50%;
+  border-radius: 50px;
+  background-color: #FAFAFA;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  font-family: 'Alata';
+  font-size: 24px;
+}
+
+.navbar li{
+  display: inline-block;
+  margin: auto;
+  width: 22%;
+}
+
+.navbar a{
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navbar a:link{
+  color: #5E503F;
+}
+
+.navbar a:visited{
+  color: #22333B;
+}
+
+.navbar a:hover{
+  color: #C6AC8F;
+}
+
+/* About section */
+.about{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about h4{
+  font-family: 'Alata', sans-serif;
+  background-color: #5e503f;
+  border-radius: 10px 10px 0 0;
+  color: #F7F7F2;
+  margin: -20px -20px 0 -20px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.aboutme{
+  margin: 50px;
+}
+/* End Main page */
+
+/* Start Book Page */
+#pg2{
+  background-color: #C5D7C5;
+}
+
+.bookheading{
+  height: 500px;
+}
+
+/* Side Navigation*/
+.sidenav2 i{
+  color: #899878;
+  font-size: 24px;
+}
+
+.sidenav2 li{
+  list-style: none;
+}
+
+.sidenav2{
+  position: fixed;
+  top: 38%;
+  right: 2%;
+}
+
+.sidenav2 i:hover{
+  color: #F2F2F2;
+}
+
+/* Intro */
+.bookintro h4{
+  font-family: 'Alata', sans-serif;
+  background-color: #899878;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 0 -20px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.bookintro{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Library */
+.row1{
+  display: flex;
+  padding: 85px 60px 10px 60px;
+}
+
+.section1{
+  flex: 25%;
+  padding: 0px 5px;
+}
+
+.row2{
+  display: flex;
+  padding: 60px;
+}
+
+.section2{
+  flex: 25%;
+  padding: 0px 5px;
+}
+
+.row1 img, .row2 img{
+  width: 100%;
+  height: auto;
+}
+
+.row1 p, .row2 p{
+  font-family: 'Alata', sans-serif;
+  color: #674C47;
+}
+
+
+.bookname{
+  font-style: italic;
+}
+
+/* Fade in overlay with quote */
+.section1, .section2{
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #edede9;
+}
+
+.section1:hover .overlay, .section2:hover .overlay {
+  opacity: 1;
+}
+
+.quote{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  margin: 20% 10%;
+  text-align: center;
+  color: #5c5248;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+#YT{
+  margin: 10% 10%;
+}
+
+/* Star rating */
+.checked{
+  color: orange;
+}
+
+/* End books page */
+
+/* Start Music page */
+#pg3{
+  background-color: #899878;
+}
+
+/* Side Navigation*/
+.sidenav3 i{
+  color: #C5D7C5;
+  font-size: 24px;
+}
+
+.sidenav3 li{
+  list-style: none;
+}
+
+.sidenav3{
+  position: fixed;
+  top: 40%;
+  right: 2%;
+}
+
+.sidenav3 i:hover{
+  color: #F2F2F2;
+}
+
+/* Music intro */
+.musicintro h4{
+  font-family: 'Alata', sans-serif;
+  background-color: #263D1C;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 0 -20px;
+  text-align: center;
+  padding: 5px 0;
+  color: #F2F2F2;
+}
+
+.musicintro{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.music{
+  margin: 220px 0;
+}
+
+/* Spotify playlists */
+iframe{
+  border-radius: 12px;
+  margin: 10px;
+  width: 30%;
+  height: 352px;
+  border: none;
+}
+
+.playlists{
+  margin: auto;
+  width: 100%;
+}
+
+/* End music page */
+
+
+/* Start Cinema page */
+
+#pg4{
+  background-color: #3d403c;
+}
+
+#cinemaheading{
+  color: #f2f2f2;
+  margin-bottom: 220px;
+}
+
+/* Side navigation */
+.sidenav4 i{
+  color: #CCCCCC;
+  font-size: 24px;
+}
+
+.sidenav4 li{
+  list-style: none;
+}
+
+.sidenav4{
+  position: fixed;
+  top: 40%;
+  right: 2%;
+}
+
+.sidenav4 i:hover{
+  color: #F2F2F2;
+}
+
+/* Movie Intro */
+.cinemaintro h4{
+  font-family: 'Alata', sans-serif;
+  background-color: #CCCCCC;
+  border-radius: 10px 10px 0 0;
+  margin: -20px -20px 0 -20px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.cinemaintro{
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cinema{
+  margin-bottom: 220px;
+}
+
+/* Movie Slideshow */
+
+.movieslide{
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.stills{
+  display: none;
+}
+
+img{
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+.previous, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dotbuttons{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+  background-color: #717171;
+}
+
+.movietitle{
+  font-family: 'Alata', sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 8px grey;
+  opacity: 0.8;
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* End cinema page */
