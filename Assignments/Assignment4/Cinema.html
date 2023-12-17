@@ -3,18 +3,18 @@
 
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Responsive webpage -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- https://www.w3schools.com/html/html_responsive.asp Accessed Dec. 8, 2023 -->
 	<title>Cinema</title>
   <link href="Final.css" type="text/css" rel="stylesheet" />
 
-<!-- Icon Library -->
+<!-- Icon Library https://www.w3schools.com/icons/default.asp Accessed Dec. 12, 2023 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-<!-- Google Fonts -->
+<!-- Google Fonts https://www.w3schools.com/howto/howto_google_fonts.asp Accessed Dec. 7, 2023-->
 	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet' />
 	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' />
 
-<!-- Favicon -->
+<!-- Favicon https://www.w3schools.com/howto/howto_html_favicon.asp Accessed Dec. 7, 2023-->
 	<link rel="icon" type="image/x-icon" href="favicon.png" />
 
 
@@ -22,17 +22,15 @@
 
 <body id="pg4">
 
-  <!-- Back button -->
-    <button type="button" onclick="goBack()"><i class='fa fa-arrow-left'></i></button>
-
   <h1 id="cinemaheading">Cinema</h1>
 
   <!-- Side Navigation Bar -->
   <div class="sidenav4">
     <ul>
-      <li><a href="#cinemaheading"><i class='fa fa-circle'></i></a></li>
-      <li><a href="#mov"><i class='fa fa-circle'></i></a></li>
-      <li><a href="#ss"><i class='fa fa-circle'></i></a></li>
+			<li><a href="Final.html" title="Main"><i class='fa fa-circle'></i></a></li>
+			<li><a href="Books.html" title="Books"><i class='fa fa-circle'></i></a></li>
+			<li><a href="Music.html" title="Music"><i class='fa fa-circle'></i></a></li>
+      <li><a href="#mov" title="Cinema"><i class='fa fa-circle'></i></a></li>
     </ul>
   </div>
 
@@ -44,12 +42,15 @@
             Personally, I love a cinematic experience when I’m watching movies, so even if I’m just at home I’ll turn off the lights and grab a speaker.
             In that fashion, I’ve decided to ‘dim the lights’ as we go through some of my favourite movies. In this little ‘blog post’ I’ve made a slideshow of movies that I adore.
             These are movies I can easily rewatch without getting bored or tired of them. Similar to the books, majority of these are romances (romantic comedies to be more specific),
-            but there are some oddballs in the mix (although I do secretly believe that all movies are romances if you look close enough). Without further ado, roll the tapes.
+            but there are some oddballs in the mix (although I do secretly believe that all movies are romances if you look close enough). A little fun fact about me - once again similar to books,
+						I don't usually watch movie trailers. I'm not a fan of spoilers and sometimes trailers just give away too much. I usually watch about 5 seconds of a trailer and decide whether I'd like
+						the movie or not. Anyways! Without further ado, roll the tapes.
           </p>
       </div>
   </div>
-<!-- Movie Gallery -->
-  <div class="movieslide" id="ss">
+
+<!-- Movie Gallery https://www.w3schools.com/howto/howto_js_slideshow.asp Accessed Dec. 11, 2023 -->
+  <div class="movieslide">
 
     <div class="stills fade">
       <div class="movietitle">When Harry Met Sally</div>
@@ -132,6 +133,11 @@
   </div>
 
 	<script type="text/javascript" src="unfiltered.js"></script>
+
+	<div class="footer">
+		un-fil-tered
+	</div>
+
 </body>
 
 </html>

@@ -1,9 +1,17 @@
-// Back button
-  function goBack(){
-    window.history.back();
-  }
+//Main Page https://www.w3schools.com/howto/howto_js_typewriter.asp Accessed Dec.15, 2023
+var i = 0;
+var txt = 'The Blog';
+var speed = 100;
 
-//Cinema page - slideshow
+function typewriter() {
+  if (i < txt.length) {
+    document.getElementById("mainhead").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typewriter, speed);
+  }
+}
+
+//Cinema page - slideshow https://www.w3schools.com/howto/howto_js_slideshow.asp Accessed Dec. 11, 2023
 let slideIndex = 1;
 showSlides(slideIndex);
 

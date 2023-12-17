@@ -1,7 +1,34 @@
+/* Common across all pages */
+html{
+  font-family: 'Open Sans';
+}
+
+.footer{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 1%;
+}
+
+#pg4 .footer{
+  color: #f2f2f2;
+}
+
 /* Main page */
 #pg1{
   background-color: #edede9;
-  font-family: 'Open Sans';
+}
+
+#type{
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+}
+
+#mainhead{
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  margin-top: -180px;
+  font-size: 50px;
 }
 
 h1{
@@ -9,6 +36,12 @@ h1{
   text-align: center;
   font-size: 190px;
   height: 100%;
+  margin: 160px;
+}
+
+.mainpage{
+  height: 100%;
+  margin-bottom: 350px;
 }
 
 /* Side Navigation*/
@@ -23,55 +56,11 @@ h1{
 
 .sidenav1{
   position: fixed;
-  top: 40%;
+  top: 45%;
   right: 2%;
 }
 
-
 .sidenav1 i:hover{
-  color: #C6AC8F;
-}
-
-
-/* Navigation */
-.navbar{
-}
-
-.navbar ul{
-  width: 50%;
-  border-radius: 50px;
-  background-color: #FAFAFA;
-  overflow: auto;
-  margin: auto;
-  text-align: center;
-  list-style: none;
-  font-family: 'Alata';
-  font-size: 24px;
-}
-
-.navbar li{
-  display: inline-block;
-  margin: auto;
-  width: 22%;
-}
-
-.navbar a{
-  text-decoration: none;
-  display: block;
-  padding: 12px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.navbar a:link{
-  color: #5E503F;
-}
-
-.navbar a:visited{
-  color: #22333B;
-}
-
-.navbar a:hover{
   color: #C6AC8F;
 }
 
@@ -97,6 +86,7 @@ h1{
 .aboutme{
   margin: 50px;
 }
+
 /* End Main page */
 
 /* Start Book Page */
@@ -120,7 +110,7 @@ h1{
 
 .sidenav2{
   position: fixed;
-  top: 38%;
+  top: 44%;
   right: 2%;
 }
 
@@ -183,7 +173,7 @@ h1{
   font-style: italic;
 }
 
-/* Fade in overlay with quote */
+/* Fade in overlay with quote  https://www.w3schools.com/howto/howto_css_image_overlay.asp Accessed Dec. 10, 2023 */
 .section1, .section2{
   position: relative;
 }
@@ -220,10 +210,11 @@ h1{
   margin: 10% 10%;
 }
 
-/* Star rating */
+/* Star rating https://www.w3schools.com/howto/howto_css_star_rating.asp Accessed Dec. 11, 2023 */
 .checked{
   color: orange;
 }
+
 
 /* End books page */
 
@@ -244,7 +235,7 @@ h1{
 
 .sidenav3{
   position: fixed;
-  top: 40%;
+  top: 44%;
   right: 2%;
 }
 
@@ -276,7 +267,7 @@ h1{
   margin: 220px 0;
 }
 
-/* Spotify playlists */
+/* Spotify playlists https://open.spotify.com/? Accessed Dec. 12, 2023 */
 iframe{
   border-radius: 12px;
   margin: 10px;
@@ -289,6 +280,7 @@ iframe{
   margin: auto;
   width: 100%;
 }
+
 
 /* End music page */
 
@@ -316,7 +308,7 @@ iframe{
 
 .sidenav4{
   position: fixed;
-  top: 40%;
+  top: 44%;
   right: 2%;
 }
 
@@ -347,7 +339,7 @@ iframe{
   margin-bottom: 220px;
 }
 
-/* Movie Slideshow */
+/* Movie Slideshow https://www.w3schools.com/howto/howto_js_slideshow.asp Accessed Dec. 11, 2023 */
 
 .movieslide{
   max-width: 80%;
@@ -433,4 +425,5 @@ img{
   from {opacity: .4}
   to {opacity: 1}
 }
+
 /* End cinema page */
